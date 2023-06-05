@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "emerald"
+version = "0.1.0"
+description = "Organize your expenses to buy some enchanted books"
+authors = ["ryzhovalex <thed4rkof@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+packages = [
+    { include = "src" },
+]
+classifiers = [
+    "Private :: Do Not Upload",
+]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+loguru = "^0.7.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
